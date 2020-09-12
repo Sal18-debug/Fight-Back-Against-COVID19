@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Global Statistics</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script 
+		src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="apis.js"></script>
+				
+		<script>loadLiveData()</script>
+
+    <div id="navcontainer">
+    <ul id="navlist">
+    <li><a href="index.html"       											>Home</a></li>
+        <li><a href="solutions.html">AR Solutions</a></li>
+    <li><a href="covid.html" 	>Covid-19</a></li>
+        <li><a href="blooddonations.html"	>Blood Donations</a></li>
+    <li><a href="mybuddy.html"  >My Buddy</a></li>
+    <li><a href="games.html"  >COVID-19 Games</a></li>
+    <li><a href="relax.html"  >Relax and Fun</a></li>
+        </ul>
+    </div>
+		<div style="float: right; padding-right:50px; color: white; display:none; font-weight: bold; text-decoration:underline; font-size: 20px" id="divCurrentUser">
+			<label>Logged In As: </label>
+			<label id="lblCurrentUserName"></label>
+		</div>
+
+<div class="wrapper" style="width:100%">
+ 
+<h2>Current live stats</h2>
+  <table width="100%">
+	<tr>
+		<td width="50%" style="font-weight: bold">Last Updated Date:</td>
+		<td width="50%">
+			<label id="lblLastUpdateDate"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">Total Cases:</td>
+		<td width="50%">
+			<label id="lblTotalCases"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">New Cases:</td>
+		<td width="50%">
+			<label id="lblNewCases"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">Total Deaths:</td>
+		<td width="50%">
+			<label id="lblTotalDeaths"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">New Deaths:</td>
+		<td width="50%">
+			<label id="lblNewDeaths"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">Total Recovered:</td>
+		<td width="50%">
+			<label id="lblTotalRecovered"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">Active Cases:</td>
+		<td width="50%">
+			<label id="lblActiveCases"></label>
+		</td>
+	</tr>
+	<tr>
+		<td width="50%" style="font-weight: bold">Serious Critical Cases:</td>
+		<td width="50%">
+			<label id="lblSeriousCases"></label>
+		</td>
+	</tr>
+</table>
+
+      <h2 class="goback"><a href="index.html">Back</a></h2>
+
+</div>
+
+    <div id="footer">
+      <p>Copyright 2020 Fight Back Against COVID 19</p>
+    </div>
+  </body>
+</html>

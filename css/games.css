@@ -1,0 +1,39 @@
+
+
+.games img {
+padding: 20px;
+border: 2px solid #000;
+border-radius: 8px;
+margin: 20px;
+background-color: #fff;
+}
+
+body.games div.contentDiv {
+  width: 100%;
+  margin-top: 375px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+}
+
+.games a:hover img {
+padding: 15px;
+border: 7px solid #369;
+border-radius: 8px;
+margin: 20px;
+background-color: #fff;
+}
+
+.games img.headerImg {
+  display: block;
+  width: 100%;
+  margin: 75px auto 0 auto;
+  padding: 0;
+  border: 1px solid #000;
+  border-radius: 8px;
+  box-shadow: none;
+}
