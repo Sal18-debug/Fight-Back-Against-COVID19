@@ -27,4 +27,5 @@ https://www.weforum.org/agenda/2020/04/10-technology-trends-coronavirus-covid19-
 
 
 https://ssir.org/rethinking_social_change_in_the_face_of_corona
+https://www.trackcorona.live/api
 
