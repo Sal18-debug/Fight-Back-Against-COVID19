@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignment</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        .heading{
+            text-align: center;
+            padding: 16px;
+            font-size: 40px;
+        }
+        .navbar{
+            background-color: orange;
+            padding: 12px;
+            text-align: center;
+        }
+        .navbar a{
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .container{
+            background-color: rgb(241, 197, 114);
+            margin-top: 20px;
+            max-width: 1300px;
+            margin-left: auto;
+            margin-right: auto;
+            /* height: 500px; */
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 400px 800px;
+            padding: 30px;
+            font-size: 16px;
+            align-items: center;
+        }
+        .myassign{
+            margin-left: 300px;
+            padding: 20px;
+        }
+        button{
+            padding: 12px;
+            border: none;
+            outline: none;
+            background-color: orange;
+            color: #ffffff;
+            margin: 12px;
+        }
+        .btn-center{
+            margin-left: 500px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <section>
+        <div class="section-container">
+            <h1 class="heading">Student Portal & Classroom</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-container">
+            <div class="navbar">
+                <a href="#">Home</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-container">
+            <div class="container">
+                <div class="myassign">
+                    <h1>My Asssignments</h1>
+                    <p>Due Tomorrow</p>
+                </div>
+                <div class="content">
+                    <div>
+                        <p>Writing Asssignment: Paragraph</p>
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>
+                    <div>
+                        <p>Science Assignment: Biology</p>
+                    </div>
+                    <div>
+                        <p>Grade: 95/100</p>
+                    </div>
+                    <div>
+                        <p>Math Assignment: Geometry</p>
+                    </div>
+                    <div>
+                        <p>Grade: 84/100</p>
+                    </div>
+                </div>
+                <button class="btn-center">Log Out</button> <br>
+                <button class="btn-center">My Classroom</button>
+            </div>
+           
+        </div>
+    </section>
+</body>
+</html>

@@ -465,3 +465,12 @@ background-color: #fff;
 #solutions{
   margin-top: 20px;
 }
+#mybuddy{
+ text-align: center;
+}
+#mybuddy ul{
+  list-style: none;
+}
+#studentteacher{
+ text-align: center;
+}

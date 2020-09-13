@@ -26,4 +26,36 @@ function processMove (e){
     }
   }
 }
+function showstudent() {
+  var x = document.getElementById("studentform");
+	var y = document.getElementById("teacherform");
+	  if (x.style.display === "none") {
+    x.style.display = "block";
+		y.style.display = "none";
+	
+  } else {
+   // x.style.display = "none";
+  }
+}
+function showteacher() {
+  var x = document.getElementById("teacherform");
+	var y = document.getElementById("studentform");
+	
+  if (x.style.display === "none") {
+    y.style.display = "none";
+		
+		x.style.display = "block";
+  } else {
+   // x.style.display = "none";
+  }
+}
+
+function showinfo(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+  	x.style.display = "none";
+  }
+}
 
